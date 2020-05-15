@@ -4,15 +4,17 @@ using System.Diagnostics;
 using UnityEngine;
 
 //Script Adapted from referenced online resource, LARGELY MODIFIED, areas where the original code is largely unmodified are noted
+//Resource Link: https://www.codementor.io/nickwiggill/eye-openers-series-generating-and-smoothing-2d-terrain-in-unity-p2fpsd0zm
+
 public class TerrainGenerator : MonoBehaviour
 {
     public Mesh mesh;
     public MeshFilter meshFilter;
     public const int MIN = 1;
     public const int MAX = 30;
-    public const int LENGTH = 5001;
+    public const int LENGTH = 101;
     public const int SCAN_RADIUS = 2;
-    public const int complexity = 1;
+    public const int complexity = 3;
     public bool firstGen = true;
     public EdgeCollider2D edgeCollider;
     public GameObject platform;

@@ -3,6 +3,8 @@
 [RequireComponent(typeof(BoxCollider2D))]
 
 //Script adapted from online resource referenced, LARGELY UNEDITED
+//Resource Link: https://roystan.net/articles/character-controller-2d.html
+
 public class CharacterController2D : MonoBehaviour
 {
     [SerializeField, Tooltip("Max speed, in units per second, that the character moves.")]
